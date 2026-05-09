@@ -16,15 +16,15 @@ cd /tmp
 ```
 > `/tmp` is the temporary directory on Linux which clear automatically when the system reboots. We gonna download and compile files which we don't need them in far future.
 
-<br>Download and extract python<br>Replace `3.13.7` with the version you need:
+<br>Download and extract python<br>Replace `3.13.13` with the version you need:
 ```
-wget https://www.python.org/ftp/python/3.13.7/Python-3.13.7.tgz
-tar -xf Python-3.13.7.tgz
+wget https://www.python.org/ftp/python/3.13.13/Python-3.13.13.tgz
+tar -xf Python-3.13.13.tgz
 ```
 
 <br>Compile and install the Python
 ```
-cd Python-3.13.7
+cd Python-3.13.13
 ./configure --enable-optimizations
 make -j$(nproc)
 sudo make altinstall
