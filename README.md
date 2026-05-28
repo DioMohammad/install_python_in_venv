@@ -34,7 +34,7 @@ sudo make altinstall
 <br><br>
 
 ## 3. Create a Virtual Environment
-You can name your venv. Here i ues `myenv`.
+You can name your venv. Here i use `myenv`.
 ```
 cd --
 python3.13 -m venv myenv
